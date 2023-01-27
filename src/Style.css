@@ -1,0 +1,332 @@
+#Profirstdiv{
+    /* border: 1px solid black; */
+    height: 100%;
+    display: flex;
+    margin: 0;
+    background-color: rgb(180, 178, 178);
+    margin-top: 20px;
+}
+#Profirstdiv1{
+    width:30%;
+    /* border: 1px solid red; */
+    height:100%;
+    background-color: white;
+    margin-top: 20px;
+   
+}
+#Profirstdiv1 div:nth-child(3)>ul:hover{
+    color: rgb(199, 108, 108);
+
+}
+#Profirstdiv1 div:nth-child(3)>ul{
+    cursor: pointer;
+}
+#Profirstdiv2{
+    /* display: flex; */
+    /* border: 1px solid purple; */
+    width: 80%;
+    margin-left:20px;
+ margin-top: 20px;
+    height: 100%;
+    background-color: rgb(222, 226, 226);}
+
+#in{
+    display: flex;
+}
+#div1{
+    display: flex;
+    font-size: 20px;
+
+}
+#div1 div:nth-child(1)>select{
+    width: 60px;
+height: 40px;
+font-size: 20px;
+font-weight: 500;
+}
+
+
+
+
+
+#topDiv{
+    width:50%;
+    /* height: 250px; */
+    /* border: 1px solid orange; */
+    /* display: flex; */
+    margin-left: 50px;
+
+}
+#prodiv{  
+    border: 1px solid black;
+    margin-top: 10px;
+    box-shadow: rgba(18, 18, 36, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+    background-color: rgb(211, 186, 226);
+    /* color: white; */
+    font-size: 25px;
+    width: 180%;
+    height: 200px;
+    
+    
+}
+
+#div{
+    /* margin-left: 80px; */
+    /* border: 1px solid black;
+    height: 190px; */
+    margin-top: 10px;
+    background-color: rgb(156, 163, 143);
+}
+
+#div>div>img{
+    height: 120px;
+    width: 150px;
+    margin-left: 12px;
+    /* /* border: 1px solid black; */
+}
+#div>div>h5{
+    margin-left: 18px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+
+}
+#div>div>h5:hover{
+    color: blue;
+
+}
+
+    
+
+#prodiv>div:nth-child(1)>img{
+    padding: 15px;
+    width:155px;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+    
+
+}
+
+#prodiv>div:nth-child(1)>img:hover{
+background-color: rgb(225, 243, 243);
+  
+    
+}
+
+
+#prodiv div:nth-child(2){
+    font-size: 15px;
+    margin-left: 25px;
+  
+    
+}
+#prodiv div:nth-child(2)>p{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#prodiv div:nth-child(3)>button{
+    /* margin-left: 50px; */
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+   
+    width: 70px;
+    color: white;
+    font-weight: 500;background-color: rgb(81, 53, 160);
+}
+#prodiv div:nth-child(3)>button:hover{
+    background-color: rgb(102, 100, 100);
+
+}
+#prodiv div:nth-child(4)>button{
+    /* margin-left: 50px; */
+    /* margin-bottom: 20px; */
+    margin-top: 5px;
+   
+    width: 80px;
+    color: white;
+    font-weight: 500;background-color: rgb(81, 53, 160);
+}
+#prodiv div:nth-child(4)>button:hover{
+    background-color: rgb(39, 9, 9);
+
+}
+#right{
+    /* border: 1px solid red; */
+   
+    height: 100%;
+    width: 100%;
+    margin-left: 50px;
+}
+
+#navbar{
+    display: flex;
+    border:1px solid black;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    background-color: rgb(81, 97, 233);
+ 
+    
+}
+
+
+
+#navbar>div>h3{
+    
+    margin-left: 200px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: -10px;
+    /* border: 1px solid white; */
+  
+    
+    
+  
+}
+#navbar div:nth-child(2){
+    border: 1px solid white;
+    width: 280px;
+    height: 30px; 
+    margin-top: 16px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+#navbar div:nth-child(2)>input{
+    margin-left: 5px;
+    /* margin-top: 16px; */
+    width:250px;
+    height: 25px;
+    border: none;
+    font-size:12px;
+}
+#navbar div:nth-child(3)>button{
+    margin-left: 15px;
+    margin-top: 16px;
+    width: 55px;
+    height: 30px;
+    font-weight: 700;
+    color:blue;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#navbar div:nth-child(4){
+    color: white;
+    margin-left: 30px;
+    margin-top: 16px;
+   
+    margin-top: 16px;
+    font-weight: 600;
+}
+#navbar div:nth-child(5)>select{
+    border: 1px solid rgb(240, 255, 24);
+    margin-left: 20px;
+    margin-top: 18px;
+    width: 60px;
+}
+#navbar div:nth-child(6){
+    margin-left: 20px;
+    color: white;
+    margin-top: 16px;
+    font-weight: 600;
+ 
+}
+#navbar div:nth-child(7)>button{
+    margin-left: 30px;
+    margin-top:16px;
+    color: rgb(36, 3, 3);
+    font-weight: 600;
+    height: 30px;
+    width: 60px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+#navbar div:nth-child(8){
+    margin-left: 20px;
+    margin-top: 18px;
+    color: white;
+    cursor: pointer;
+}
+#navbar div:nth-child(10)>button{
+    margin-left: 20px;
+    color: red;
+    cursor: pointer;
+    background-color: white;
+    width:80px;
+    height:35px;
+    margin-top: 10px;
+    font-weight: 600;
+    border: none;
+
+}
+
+#cartdiv1{
+    
+    border: 1px solid black;
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 20px;
+   
+   
+}
+#cart div:nth-child(1)>img{
+    height: 120px;
+    width: 180px;
+
+}
+
+/* Home */
+#img{
+    display: flex;
+    background-color: rgb(144, 120, 202);
+}
+#img>div>img{
+   margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+   
+}
+#img>div>h5{
+    margin-left: 100px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+#img>div>h5:hover{
+    color: blue;
+}
+#dB>button{
+    margin-top: 16px;
+    margin-left: 50px;
+    width: 75px;
+    height: 30px;
+    color:blue;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+#dB>button:hover{
+    color: rgb(1, 1, 26);
+}
+#cartdiv1{
+    background-color: rgb(190, 190, 190);
+    width: 600px;
+}
+#cart div:nth-child(1)>img{
+    width: 250px;
+}
+#cdiv{
+    display: flex;
+}
